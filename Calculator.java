@@ -7,7 +7,7 @@ public class Calculator {
         System.out.println("Multiplication of a and b is: " + multiply(a , b));
     }
 
-    public int multiply(int a,int b){
+    public static int multiply(int a,int b){
         return a*b;
     }
 }
